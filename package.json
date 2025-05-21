@@ -1,0 +1,11 @@
+{
+  "name": "02_codice",
+  "version": "1.0.0",
+  "description": "Esercizio nodeJs hello world",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
