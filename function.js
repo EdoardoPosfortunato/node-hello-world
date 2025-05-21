@@ -12,7 +12,33 @@ function contaVocali(parola) {
         }
     }
     
-    console.log(contatore)
+    return contatore;
 }
 
-export {contaVocali}
+// Funzione trasforma array di stringhe in numeri
+
+function arrayDiNumeri(arrayDaTerminale) {
+
+    const arrayDaControllare = arrayDaTerminale.slice(2);
+
+    let arrayNumeri = arrayDaControllare.map(currNum => parseInt(currNum));
+
+    return arrayNumeri }
+    
+
+// Funzione trova il numero più alto in un array
+
+function numeroMaggiore(arrayDiNumeri) {
+
+    let numeroAlto = arrayDiNumeri[0];
+
+    arrayDiNumeri.forEach(element => {
+        if(element > numeroAlto) {
+            numeroAlto = element;
+        }
+    });
+
+    return numeroAlto
+};
+
+export { contaVocali, arrayDiNumeri, numeroMaggiore}
