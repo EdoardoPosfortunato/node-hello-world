@@ -12,6 +12,6 @@ Lo script deve accettare una parola o frase come argomento dal terminale.
 Calcolare e stampare quante vocali (a, e, i, o, u) sono presenti nella stringa.
 b. Trova il Numero Maggiore
 Obiettivo: Determinare il numero più grande in una lista di numeri.
-Istruzioni:
+Istruzioni: 
 Lo script deve accettare una lista di numeri separati da spazio come argomento dal terminale.
 Restituire il numero più grande tra quelli forniti.
